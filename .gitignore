@@ -1,0 +1,31 @@
+.venv/
+__pycache__/
+.pytest_cache/
+.ruff_cache/
+dist/
+split/
+artifacts/
+fixtures/
+*.egg-info/
+.DS_Store
+
+# Private scans and diagnostic images, including uppercase extensions.
+*.[jJ][pP][gG]
+*.[jJ][pP][eE][gG]
+*.[pP][nN][gG]
+*.[tT][iI][fF]
+*.[tT][iI][fF][fF]
+*.[hH][eE][iI][cC]
+*.[pP][dD][fF]
+*.zip
+
+# Local credentials and editor/agent state.
+.env
+.env.*
+*.pem
+*.key
+.idea/
+.vscode/
+.codex/
+.agents/
+.codegraph/
